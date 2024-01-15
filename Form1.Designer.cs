@@ -55,7 +55,7 @@ partial class Form1
         this.FormBorderStyle = FormBorderStyle.FixedSingle;
         this.ControlBox = false;
         this.ClientSize = new System.Drawing.Size(700, 500);
-        Icon meuIcone = new Icon("C:/Users/arthur.filipus/OneDrive - NDD.Tech/Área de Trabalho/teste/Icone/dado-20-lados.ico");
+        Icon meuIcone = new Icon("../teste/Icone/dado-20-lados.ico");
         this.Icon = meuIcone;
         this.Text = "ROLADORdeDADO";
 
@@ -131,21 +131,21 @@ partial class Form1
         fotoFalha.Location = new Point(300, 85);
         fotoFalha.SizeMode = PictureBoxSizeMode.StretchImage;
         fotoFalha.BorderStyle = BorderStyle.FixedSingle;
-        fotoFalha.Image = Image.FromFile("C:/Users/arthur.filipus/OneDrive - NDD.Tech/Área de Trabalho/teste/Imagem/rebecca_falha.png");
+        fotoFalha.Image = Image.FromFile("../teste/Imagem/rebecca_falha.png");
 
         fotoCrit = new PictureBox();
         fotoCrit.Size = new System.Drawing.Size(295, 390);
         fotoCrit.Location = new Point(300, 85);
         fotoCrit.SizeMode = PictureBoxSizeMode.StretchImage;
         fotoCrit.BorderStyle = BorderStyle.FixedSingle;
-        fotoCrit.Image = Image.FromFile("C:/Users/arthur.filipus/OneDrive - NDD.Tech/Área de Trabalho/teste/Imagem/rebecca_crit.png");
+        fotoCrit.Image = Image.FromFile("../teste/Imagem/rebecca_crit.png");
 
         fotoNormal = new PictureBox();
         fotoNormal.Size = new System.Drawing.Size(295, 390);
         fotoNormal.Location = new Point(300, 85);
         fotoNormal.SizeMode = PictureBoxSizeMode.StretchImage;
         fotoNormal.BorderStyle = BorderStyle.FixedSingle;
-        fotoNormal.Image = Image.FromFile("C:/Users/arthur.filipus/OneDrive - NDD.Tech/Área de Trabalho/teste/Imagem/rebecca_normal.png");
+        fotoNormal.Image = Image.FromFile("../teste/Imagem/rebecca_normal.png");
 
         Controls.Add(fotoNormal);
         Controls.Add(fotoCrit);
